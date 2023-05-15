@@ -1,0 +1,20 @@
+Status = input("Is yo mama gay? ")
+Report = input("Is yo dada gay? ")
+Overview = input("Is yo sister down to fuck doe?")
+
+if Status or Report == "Yes":
+    print("Alright so far so good")
+    if Status or Report == "No":
+        print("Why are you Lying go back and answer truthfully")
+else:
+    print("Nigga go back and answer Yes or No")
+if Overview == "Yes":
+    print("Yo whole family just a dub")
+    if Overview == "No":
+        print("Why you lying? Go back and answer truthfully")
+else:
+    print("Nigga go back and answer Yes or No")
+
+# a = 15
+# if a > 10 or a < 10:
+#     print("Your mother is gay")
