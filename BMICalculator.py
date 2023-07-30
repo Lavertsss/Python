@@ -6,14 +6,14 @@ BMI = float(weight) / float(height) ** 2
 BMI_INT = (int(BMI))
 # "{:.2f}".format
 if BMI_INT < 18.5:
-    print(f"YOUR BMI IS {BMI_INT}.YOU ARE UNDERWEIGHT")
+    print(f"YOUR BMI IS {BMI_INT}.YOU ARE UNDERWEIGHT!")
 elif BMI_INT < 25:
-    print(f"YOUR BMI IS {BMI_INT}.YOU ARE NORMAL WEIGHT")
+    print(f"YOUR BMI IS {BMI_INT}.YOU ARE NORMAL WEIGHT!")
 elif BMI_INT < 30:
-    print(f"YOUR BMI IS {BMI_INT}.YOU ARE OVERWEIGHT")
+    print(f"YOUR BMI IS {BMI_INT}.YOU ARE OVERWEIGH!T")
 elif BMI_INT < 35:
-    print(f"YOUR BMI IS {BMI_INT}.YOU ARE OBESE")
+    print(f"YOUR BMI IS {BMI_INT}.YOU ARE OBESE!")
 elif BMI_INT >= 35:
-    print(f"YOUR BMI IS {BMI_INT}.YOU ARE CLINICALLY OBESE")
+    print(f"YOUR BMI IS {BMI_INT}.YOU ARE CLINICALLY OBESE!")
 else:
     print(f"YOUR BMI IS {BMI_INT}.Unidentifiable")
